@@ -1,3 +1,5 @@
+[English](README.md) | **Tiếng Việt**
+
 # Gói ngôn ngữ tiếng Việt cho Moodle
 
 Gói ngôn ngữ tiếng Việt và các chuỗi ngôn ngữ tùy biến dành cho **Moodle LMS 5.3.1+**.

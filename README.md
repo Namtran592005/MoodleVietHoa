@@ -1,3 +1,5 @@
+**English** | [Tiếng Việt](README.vi.md)
+
 # Moodle Vietnamese Language Pack
 
 Vietnamese language pack and custom language strings for **Moodle LMS 5.3.1+**.
