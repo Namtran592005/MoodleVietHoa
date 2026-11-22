@@ -1,0 +1,273 @@
+<?php
+
+// This file is part of Moodle - http://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+
+/**
+ * Local language pack from http://localhost
+ *
+ * @package    core
+ * @subpackage plugin
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$string['actions'] = 'Thao tác';
+$string['availability'] = 'Tính khả dụng';
+$string['cancelinstallall'] = 'Hủy cài đặt mới ({$a})';
+$string['cancelinstallhead'] = 'Hủy cài đặt plugin';
+$string['cancelinstallinfo'] = 'Các plugin sau chưa được cài đặt hoàn chỉnh nên có thể hủy cài đặt. Để thực hiện việc này, cần xóa thư mục plugin khỏi máy chủ ngay bây giờ. Hãy chắc chắn đây là điều bạn thực sự muốn để tránh mất dữ liệu ngoài ý muốn (chẳng hạn như các sửa đổi mã của chính bạn).';
+$string['cancelinstallinfodir'] = 'Thư mục sẽ bị xóa: {$a}';
+$string['cancelinstallone'] = 'Hủy cài đặt này';
+$string['cancelupgradeall'] = 'Hủy nâng cấp ({$a})';
+$string['cancelupgradehead'] = 'Khôi phục phiên bản plugin trước đó';
+$string['cancelupgradeone'] = 'Hủy nâng cấp này';
+$string['checkforupdates'] = 'Kiểm tra các bản cập nhật hiện có';
+$string['checkforupdateslast'] = 'Lần kiểm tra gần nhất vào {$a}';
+$string['dependencyavailable'] = 'Khả dụng';
+$string['dependencyfails'] = 'Không đáp ứng';
+$string['dependencyinstall'] = 'Cài đặt';
+$string['dependencyinstallhead'] = 'Cài đặt các phần phụ thuộc còn thiếu';
+$string['dependencyinstallmissing'] = 'Cài đặt các phần phụ thuộc còn thiếu ({$a})';
+$string['dependencymissing'] = 'Còn thiếu';
+$string['dependencyunavailable'] = 'Không khả dụng';
+$string['dependencyupload'] = 'Tải lên';
+$string['dependencyuploadmissing'] = 'Tải lên tệp ZIP';
+$string['deprecated_type'] = 'Loại plugin đã lỗi thời';
+$string['detectedmisplacedplugin'] = 'Plugin "{$a->component}" được cài đặt ở vị trí không chính xác "{$a->current}", vị trí dự kiến là "{$a->expected}"';
+$string['displayname'] = 'Tên plugin';
+$string['err_response_curl'] = 'Không thể tải dữ liệu về các bản cập nhật hiện có - lỗi cURL không mong muốn.';
+$string['err_response_format_version'] = 'Phiên bản định dạng phản hồi không mong muốn. Vui lòng thử kiểm tra lại các bản cập nhật hiện có.';
+$string['err_response_http_code'] = 'Không thể tải dữ liệu về các bản cập nhật hiện có - mã phản hồi HTTP không mong muốn.';
+$string['filterall'] = 'Hiển thị tất cả';
+$string['filtercontribonly'] = 'Chỉ hiển thị plugin bổ sung';
+$string['filtermissingonly'] = 'Chỉ hiển thị plugin bị thiếu trên đĩa';
+$string['filternewpluginsonly'] = 'Chỉ hiển thị plugin cần cài đặt';
+$string['filterupdatesonly'] = 'Chỉ hiển thị plugin có thể cập nhật';
+$string['incompatibleversion'] = 'Phiên bản Moodle không tương thích: {$a}';
+$string['isenabled'] = 'Đã bật?';
+$string['misdepinfoplugin'] = 'Thông tin plugin';
+$string['misdepinfoversion'] = 'Thông tin phiên bản';
+$string['misdepsavail'] = 'Các phần phụ thuộc còn thiếu hiện có';
+$string['misdepsunavail'] = 'Các phần phụ thuộc còn thiếu không khả dụng';
+$string['misdepsunavaillist'] = 'Không tìm thấy phiên bản nào đáp ứng các yêu cầu phụ thuộc: {$a}.';
+$string['misdepsunknownlist'] = 'Không có trong thư mục Plugins: <strong>{$a}</strong>.';
+$string['moodlebranch'] = 'Moodle {$a->min} - {$a->max}';
+$string['moodleversion'] = 'Moodle {$a}';
+$string['noneinstalled'] = 'Chưa cài đặt plugin nào thuộc loại này';
+$string['notdownloadable'] = 'Không thể tải gói';
+$string['notdownloadable_help'] = 'Không thể tự động tải gói ZIP chứa bản cập nhật.';
+$string['notdownloadable_link'] = 'admin/mdeploy/notdownloadable';
+$string['notes'] = 'Ghi chú';
+$string['notsupported'] = 'Plugin có thể không tương thích với phiên bản Moodle {$a}';
+$string['notwritable'] = 'Không thể ghi vào các tệp plugin';
+$string['notwritable_help'] = 'Máy chủ web không thể ghi vào các tệp plugin. Tiến trình máy chủ web phải có quyền ghi vào thư mục plugin và toàn bộ nội dung bên trong. Cũng có thể cần quyền ghi vào thư mục gốc của loại plugin tương ứng.';
+$string['otherplugin'] = '{$a->component}';
+$string['otherpluginversion'] = '{$a->component} ({$a->version})';
+$string['overviewall'] = 'Tất cả plugin';
+$string['overviewext'] = 'Plugin bổ sung';
+$string['overviewupdatable'] = 'Các bản cập nhật hiện có';
+$string['packagesdebug'] = 'Đã bật kết quả gỡ lỗi';
+$string['packagesdownloading'] = 'Đang tải xuống {$a}';
+$string['packagesextracting'] = 'Đang giải nén {$a}';
+$string['packagesvalidating'] = 'Đang xác thực {$a}';
+$string['packagesvalidatingfailed'] = 'Đã hủy cài đặt do xác thực không thành công';
+$string['packagesvalidatingok'] = 'Xác thực thành công, có thể tiếp tục cài đặt';
+$string['plugincheckall'] = 'Tất cả plugin';
+$string['plugincheckattention'] = 'Plugin cần chú ý';
+$string['pluginchecknone'] = 'Hiện không có plugin nào cần bạn chú ý';
+$string['pluginchecknotice'] = 'Trang này hiển thị các plugin có thể cần bạn chú ý trong quá trình nâng cấp, chẳng hạn như plugin mới cần cài đặt, plugin cần nâng cấp, plugin bị thiếu, v.v. Các plugin bổ sung cũng được hiển thị nếu có bản cập nhật. Bạn nên kiểm tra xem có phiên bản plugin mới hơn hay không và cập nhật mã nguồn của chúng trước khi tiếp tục nâng cấp Moodle này.';
+$string['plugindisable'] = 'Tắt';
+$string['plugindisabled'] = 'Đã tắt';
+$string['pluginenable'] = 'Bật';
+$string['pluginenabled'] = 'Đã bật';
+$string['release'] = 'Bản phát hành';
+$string['requiredby'] = 'Được yêu cầu bởi: {$a}';
+$string['requires'] = 'Yêu cầu';
+$string['rootdir'] = 'Thư mục';
+$string['settings'] = 'Cài đặt';
+$string['source'] = 'Nguồn';
+$string['sourceext'] = 'Bổ sung';
+$string['sourcestd'] = 'Chuẩn';
+$string['status'] = 'Trạng thái';
+$string['status_delete'] = 'Sẽ bị xóa';
+$string['status_downgrade'] = 'Đã cài đặt phiên bản cao hơn!';
+$string['status_missing'] = 'Không có trên ổ đĩa!';
+$string['status_new'] = 'Sẽ được cài đặt';
+$string['status_nodb'] = 'Không có cơ sở dữ liệu';
+$string['status_upgrade'] = 'Sẽ được nâng cấp';
+$string['status_uptodate'] = 'Đã cài đặt';
+$string['supportedconversions'] = 'Các kiểu chuyển đổi tài liệu được hỗ trợ';
+$string['supportedmoodleversions'] = 'Các phiên bản Moodle được hỗ trợ';
+$string['systemname'] = 'Mã định danh';
+$string['type_aiplacement'] = 'Plugin vị trí AI';
+$string['type_aiplacement_plural'] = 'Các plugin vị trí AI';
+$string['type_aiprovider'] = 'Plugin nhà cung cấp AI';
+$string['type_aiprovider_plural'] = 'Các plugin nhà cung cấp AI';
+$string['type_antivirus'] = 'Plugin chống vi-rút';
+$string['type_antivirus_plural'] = 'Các plugin chống vi-rút';
+$string['type_auth'] = 'Phương thức xác thực';
+$string['type_auth_plural'] = 'Các phương thức xác thực';
+$string['type_availability'] = 'Giới hạn khả dụng';
+$string['type_availability_plural'] = 'Các giới hạn khả dụng';
+$string['type_block'] = 'Khối';
+$string['type_block_plural'] = 'Các khối';
+$string['type_cachelock'] = 'Trình xử lý khóa bộ nhớ đệm';
+$string['type_cachelock_plural'] = 'Các trình xử lý khóa bộ nhớ đệm';
+$string['type_cachestore'] = 'Kho lưu trữ bộ nhớ đệm';
+$string['type_cachestore_plural'] = 'Các kho lưu trữ bộ nhớ đệm';
+$string['type_calendartype'] = 'Loại lịch';
+$string['type_calendartype_plural'] = 'Các loại lịch';
+$string['type_communication'] = 'Nhà cung cấp dịch vụ giao tiếp';
+$string['type_communication_plural'] = 'Các nhà cung cấp dịch vụ giao tiếp';
+$string['type_contenttype'] = 'Ngân hàng nội dung';
+$string['type_contenttype_plural'] = 'Các plugin ngân hàng nội dung';
+$string['type_core'] = 'Hệ thống con lõi';
+$string['type_core_plural'] = 'Các hệ thống con lõi';
+$string['type_coursereport'] = 'Báo cáo khóa học';
+$string['type_coursereport_plural'] = 'Các báo cáo khóa học';
+$string['type_customfield'] = 'Trường tùy chỉnh';
+$string['type_customfield_plural'] = 'Các trường tùy chỉnh';
+$string['type_dataformat'] = 'Định dạng dữ liệu';
+$string['type_dataformat_plural'] = 'Các định dạng dữ liệu';
+$string['type_editor'] = 'Trình soạn thảo';
+$string['type_editor_plural'] = 'Các trình soạn thảo';
+$string['type_enrol'] = 'Phương thức ghi danh';
+$string['type_enrol_plural'] = 'Các phương thức ghi danh';
+$string['type_fileconverter'] = 'Trình chuyển đổi tài liệu';
+$string['type_fileconverter_plural'] = 'Các trình chuyển đổi tài liệu';
+$string['type_fileconvertermanage'] = 'Quản lý trình chuyển đổi tài liệu';
+$string['type_filter'] = 'Bộ lọc văn bản';
+$string['type_filter_plural'] = 'Các bộ lọc văn bản';
+$string['type_format'] = 'Định dạng khóa học';
+$string['type_format_plural'] = 'Các định dạng khóa học';
+$string['type_gradeexport'] = 'Phương thức xuất điểm';
+$string['type_gradeexport_plural'] = 'Các phương thức xuất điểm';
+$string['type_gradeimport'] = 'Phương thức nhập điểm';
+$string['type_gradeimport_plural'] = 'Các phương thức nhập điểm';
+$string['type_gradepenalty'] = 'Mức phạt điểm';
+$string['type_gradepenalty_plural'] = 'Các mức phạt điểm';
+$string['type_gradereport'] = 'Báo cáo sổ điểm';
+$string['type_gradereport_plural'] = 'Các báo cáo sổ điểm';
+$string['type_gradingform'] = 'Phương pháp chấm điểm nâng cao';
+$string['type_gradingform_plural'] = 'Các phương pháp chấm điểm nâng cao';
+$string['type_h5plib'] = 'Khung H5P';
+$string['type_h5plib_plural'] = 'Các khung H5P';
+$string['type_local'] = 'Plugin cục bộ';
+$string['type_local_plural'] = 'Các plugin cục bộ';
+$string['type_media'] = 'Trình phát đa phương tiện';
+$string['type_media_plural'] = 'Các trình phát đa phương tiện';
+$string['type_message'] = 'Plugin thông báo';
+$string['type_message_plural'] = 'Các plugin thông báo';
+$string['type_mlbackend'] = 'Nền tảng phụ trợ học máy';
+$string['type_mlbackend_plural'] = 'Các nền tảng phụ trợ học máy';
+$string['type_mnetservice'] = 'Dịch vụ MNet';
+$string['type_mnetservice_plural'] = 'Các dịch vụ MNet';
+$string['type_mod'] = 'Mô-đun hoạt động';
+$string['type_mod_plural'] = 'Các mô-đun hoạt động';
+$string['type_paygw'] = 'Cổng thanh toán';
+$string['type_paygw_plural'] = 'Các cổng thanh toán';
+$string['type_paygwmanage'] = 'Quản lý cổng thanh toán';
+$string['type_plagiarism'] = 'Plugin chống đạo văn';
+$string['type_plagiarism_plural'] = 'Các plugin chống đạo văn';
+$string['type_portfolio'] = 'Hồ sơ năng lực';
+$string['type_portfolio_plural'] = 'Các hồ sơ năng lực';
+$string['type_profilefield'] = 'Loại trường hồ sơ';
+$string['type_profilefield_plural'] = 'Các loại trường hồ sơ';
+$string['type_qbank'] = 'Plugin ngân hàng câu hỏi';
+$string['type_qbank_plural'] = 'Các plugin ngân hàng câu hỏi';
+$string['type_qbehaviour'] = 'Hành vi câu hỏi';
+$string['type_qbehaviour_plural'] = 'Các hành vi câu hỏi';
+$string['type_qformat'] = 'Định dạng nhập/xuất câu hỏi';
+$string['type_qformat_plural'] = 'Các định dạng nhập/xuất câu hỏi';
+$string['type_qtype'] = 'Loại câu hỏi';
+$string['type_qtype_plural'] = 'Các loại câu hỏi';
+$string['type_report'] = 'Báo cáo trang web';
+$string['type_report_plural'] = 'Các báo cáo';
+$string['type_repository'] = 'Kho lưu trữ';
+$string['type_repository_plural'] = 'Các kho lưu trữ';
+$string['type_search'] = 'Công cụ tìm kiếm';
+$string['type_search_plural'] = 'Các công cụ tìm kiếm';
+$string['type_smsgateway'] = 'Cổng SMS';
+$string['type_smsgateway_plural'] = 'Các cổng SMS';
+$string['type_theme'] = 'Giao diện';
+$string['type_theme_plural'] = 'Các giao diện';
+$string['type_tool'] = 'Công cụ quản trị';
+$string['type_tool_plural'] = 'Các công cụ quản trị';
+$string['type_webservice'] = 'Giao thức dịch vụ web';
+$string['type_webservice_plural'] = 'Các giao thức dịch vụ web';
+$string['uninstall'] = 'Gỡ cài đặt';
+$string['uninstallconfirm'] = 'Bạn sắp gỡ cài đặt plugin <em>{$a->name}</em>. Thao tác này sẽ xóa hoàn toàn mọi dữ liệu liên quan đến plugin này trong cơ sở dữ liệu, bao gồm cấu hình, bản ghi nhật ký, tệp của người dùng do plugin quản lý, v.v. Không thể hoàn tác và Moodle không tự tạo bản sao lưu để khôi phục. Bạn CÓ CHẮC CHẮN muốn tiếp tục không?';
+$string['uninstalldelete'] = 'Mọi dữ liệu liên quan đến plugin <em>{$a->name}</em> đã bị xóa khỏi cơ sở dữ liệu. Để ngăn plugin tự cài đặt lại, bạn phải xóa thủ công thư mục <em>{$a->rootdir}</em> khỏi máy chủ ngay bây giờ. Moodle không thể tự xóa thư mục do quyền ghi.';
+$string['uninstalldeleteconfirm'] = 'Mọi dữ liệu liên quan đến plugin <em>{$a->name}</em> đã bị xóa khỏi cơ sở dữ liệu. Để ngăn plugin tự cài đặt lại, bạn phải xóa thư mục <em>{$a->rootdir}</em> khỏi máy chủ. Bạn có muốn xóa thư mục plugin ngay bây giờ không?';
+$string['uninstalldeleteconfirmexternal'] = 'Có vẻ như phiên bản hiện tại của plugin được lấy thông qua thao tác checkout từ hệ thống quản lý mã nguồn ({$a}). Nếu xóa thư mục plugin, bạn có thể mất các chỉnh sửa cục bộ quan trọng trong mã. Vui lòng đảm bảo rằng bạn thực sự muốn xóa thư mục plugin trước khi tiếp tục.';
+$string['uninstallextraconfirmblock'] = 'Có {$a->instances} phiên bản của khối này. Chúng sẽ không còn hiển thị ở bất kỳ đâu và sẽ bị xóa bởi một tác vụ nền.';
+$string['uninstallextraconfirmenrol'] = 'Có {$a->enrolments} lượt ghi danh của người dùng.';
+$string['uninstallextraconfirmmod'] = 'Có {$a->instances} phiên bản của mô-đun này trong {$a->courses} khóa học.';
+$string['uninstalling'] = 'Đang gỡ cài đặt {$a->name}';
+$string['updateavailable'] = 'Có phiên bản mới {$a}!';
+$string['updateavailable_moreinfo'] = 'Thông tin thêm...';
+$string['updateavailable_release'] = 'Bản phát hành {$a}';
+$string['updatepluginconfirm'] = 'Xác nhận cập nhật plugin';
+$string['updatepluginconfirmexternal'] = 'Có vẻ như phiên bản hiện tại của plugin được lấy thông qua thao tác checkout từ hệ thống quản lý mã nguồn ({$a}). Nếu cài đặt bản cập nhật này, bạn sẽ không thể nhận các bản cập nhật plugin từ hệ thống quản lý mã nguồn nữa. Vui lòng đảm bảo rằng bạn thực sự muốn cập nhật plugin trước khi tiếp tục.';
+$string['updatepluginconfirminfo'] = 'Bạn sắp cài đặt phiên bản mới của plugin <strong>{$a->name}</strong>. Gói ZIP phiên bản {$a->version} của plugin sẽ được tải xuống từ <a href="{$a->url}">{$a->url}</a> và giải nén vào bản cài đặt Moodle để nâng cấp hệ thống.';
+$string['updatepluginconfirmwarning'] = 'Xin lưu ý rằng Moodle sẽ không tự động sao lưu cơ sở dữ liệu trước khi nâng cấp. Chúng tôi đặc biệt khuyến nghị bạn tạo bản sao lưu toàn bộ ngay bây giờ để phòng trường hợp hiếm gặp khi mã mới có lỗi khiến trang web không khả dụng hoặc thậm chí làm hỏng cơ sở dữ liệu. Bạn tự chịu rủi ro nếu tiếp tục.';
+$string['validationmsg_componentmatch'] = 'Tên thành phần đầy đủ';
+$string['validationmsg_componentmismatchname'] = 'Tên plugin không khớp';
+$string['validationmsg_componentmismatchname_help'] = 'Một số gói ZIP, chẳng hạn như gói được tạo bởi Github, có thể chứa tên thư mục gốc không chính xác. Bạn cần sửa tên thư mục gốc để khớp với tên plugin đã khai báo.';
+$string['validationmsg_componentmismatchname_info'] = 'Plugin khai báo tên là \'{$a}\' nhưng tên này không khớp với tên thư mục gốc.';
+$string['validationmsg_componentmismatchtype'] = 'Loại plugin không khớp';
+$string['validationmsg_componentmismatchtype_info'] = 'Mong đợi loại \'{$a->expected}\' nhưng plugin khai báo loại là \'{$a->found}\'.';
+$string['validationmsg_filenotexists'] = 'Không tìm thấy tệp đã giải nén';
+$string['validationmsg_filesnumber'] = 'Không tìm thấy đủ tệp trong gói';
+$string['validationmsg_filestatus'] = 'Không thể giải nén tất cả các tệp';
+$string['validationmsg_filestatus_info'] = 'Thử giải nén tệp {$a->file} nhưng gặp lỗi \'{$a->status}\'.';
+$string['validationmsg_foundlangfile'] = 'Đã tìm thấy tệp ngôn ngữ';
+$string['validationmsg_maturity'] = 'Cấp độ trưởng thành đã khai báo';
+$string['validationmsg_maturity_help'] = 'Plugin có thể khai báo cấp độ trưởng thành. Nếu người bảo trì cho rằng plugin ổn định, cấp độ trưởng thành đã khai báo sẽ là MATURITY_STABLE. Tất cả các cấp độ trưởng thành khác (chẳng hạn như alpha hoặc beta) nên được xem là chưa ổn định và sẽ xuất hiện cảnh báo.';
+$string['validationmsg_missingcomponent'] = 'Plugin không khai báo tên thành phần';
+$string['validationmsg_missingcomponent_help'] = 'Tất cả plugin phải cung cấp tên thành phần đầy đủ thông qua khai báo `$plugin->component` trong tệp version.php.';
+$string['validationmsg_missingcomponent_link'] = 'Phát triển:version.php';
+$string['validationmsg_missingexpectedlangenfile'] = 'Tên tệp ngôn ngữ tiếng Anh không khớp';
+$string['validationmsg_missingexpectedlangenfile_info'] = 'Loại plugin đã cho thiếu tệp ngôn ngữ tiếng Anh dự kiến {$a}.';
+$string['validationmsg_missinglangenfile'] = 'Không tìm thấy tệp ngôn ngữ tiếng Anh';
+$string['validationmsg_missinglangenfolder'] = 'Thiếu thư mục ngôn ngữ tiếng Anh';
+$string['validationmsg_missingversion'] = 'Plugin không khai báo phiên bản';
+$string['validationmsg_missingversionphp'] = 'Không tìm thấy tệp version.php';
+$string['validationmsg_multiplelangenfiles'] = 'Tìm thấy nhiều tệp ngôn ngữ tiếng Anh';
+$string['validationmsg_onedir'] = 'Cấu trúc gói ZIP không hợp lệ.';
+$string['validationmsg_onedir_help'] = 'Gói ZIP chỉ được chứa một thư mục gốc chứa mã plugin. Tên thư mục gốc đó phải khớp với tên plugin.';
+$string['validationmsg_pathwritable'] = 'Kiểm tra quyền ghi';
+$string['validationmsg_pluginversion'] = 'Phiên bản plugin';
+$string['validationmsg_pluginversiontoolow'] = 'Phiên bản plugin cao hơn đã được cài đặt';
+$string['validationmsg_release'] = 'Bản phát hành plugin';
+$string['validationmsg_requiresmoodle'] = 'Phiên bản Moodle bắt buộc';
+$string['validationmsg_rootdir'] = 'Tên plugin cần cài đặt';
+$string['validationmsg_rootdir_help'] = 'Tên thư mục gốc trong gói ZIP sẽ trở thành tên plugin cần cài đặt. Nếu tên không chính xác, bạn có thể đổi tên thư mục gốc trong tệp ZIP trước khi cài đặt plugin.';
+$string['validationmsg_rootdirinvalid'] = 'Tên plugin không hợp lệ';
+$string['validationmsg_rootdirinvalid_help'] = 'Tên thư mục gốc trong gói ZIP vi phạm các yêu cầu cú pháp chính thức. Một số gói ZIP, chẳng hạn như gói được tạo bởi Github, có thể chứa tên thư mục gốc không chính xác. Bạn cần sửa tên thư mục gốc để khớp với tên plugin.';
+$string['validationmsg_targetexists'] = 'Vị trí đích đã tồn tại và sẽ bị xóa';
+$string['validationmsg_targetexists_help'] = 'Thư mục plugin đã tồn tại và sẽ được thay thế bằng nội dung của gói plugin.';
+$string['validationmsg_targetnotdir'] = 'Vị trí đích đang bị chiếm bởi một tệp';
+$string['validationmsg_unknowntype'] = 'Không rõ loại plugin';
+$string['validationmsg_versionphpsyntax'] = 'Phát hiện cú pháp không được hỗ trợ trong tệp version.php';
+$string['validationmsglevel_debug'] = 'Gỡ lỗi';
+$string['validationmsglevel_error'] = 'Lỗi';
+$string['validationmsglevel_info'] = 'OK';
+$string['validationmsglevel_warning'] = 'Cảnh báo';
+$string['version'] = 'Phiên bản';
+$string['versiondb'] = 'Phiên bản hiện tại';
+$string['versiondisk'] = 'Phiên bản mới';
