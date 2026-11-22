@@ -19,6 +19,7 @@ MoodleVietHoa/
 ├── customlang/                         # Import-ready PHP language files
 ├── dist/
 │   └── customlang_vi_moodle531_completed.zip
+├── LICENSE                              # GNU GPL v3.0 text
 ├── README.md                            # English documentation
 └── README.vi.md                         # Vietnamese documentation
 ```
@@ -58,6 +59,12 @@ The package was compared with the Moodle 5.3.1+ production language source:
 
 ## License and attribution
 
-Moodle is distributed under the GNU General Public License v3. This repository contains language customisation files intended for use with Moodle. Please review the licensing terms of your Moodle installation and any third-party plugin or theme before redistributing modified files.
+This repository is licensed under the **GNU General Public License, version 3 or later** (SPDX: `GPL-3.0-or-later`). The full text is available in [`LICENSE`](LICENSE).
+
+The PHP files in `customlang/` are derived from Moodle language packs and each file already carries Moodle's GPL header, so the package must stay under the GPL. Moodle is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+- Moodle core language strings: © Moodle Pty Ltd and contributors, GPL-3.0-or-later.
+- `customlang/theme_academi.php` strings: from the third-party Academi theme, distributed under the GPL as a Moodle plugin. Review that theme's own licensing and attribution terms before redistributing it.
+- Vietnamese translations and repository documentation: © the contributors to this repository, released under GPL-3.0-or-later.
 
 This project is an independent Vietnamese language customisation package and is not an official Moodle release.

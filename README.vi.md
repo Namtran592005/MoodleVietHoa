@@ -19,6 +19,7 @@ MoodleVietHoa/
 ├── customlang/                         # Các file PHP ngôn ngữ để import
 ├── dist/
 │   └── customlang_vi_moodle531_completed.zip
+├── LICENSE                              # Toàn văn GNU GPL v3.0
 ├── README.md                            # Tài liệu tiếng Anh
 └── README.vi.md                         # Tài liệu tiếng Việt
 ```
@@ -58,6 +59,12 @@ Trong tài liệu này, “đầy đủ” có nghĩa là mọi khóa chuỗi tr
 
 ## Giấy phép và ghi công
 
-Moodle được phân phối theo GNU General Public License phiên bản 3. Repository này chứa các file tùy biến ngôn ngữ để sử dụng với Moodle. Khi phân phối lại file đã chỉnh sửa, hãy kiểm tra điều khoản giấy phép của bản Moodle và các plugin hoặc giao diện bên thứ ba có liên quan.
+Repository này được phát hành theo **GNU General Public License, phiên bản 3 hoặc mới hơn** (SPDX: `GPL-3.0-or-later`). Toàn văn giấy phép có trong file [`LICENSE`](LICENSE).
+
+Các file PHP trong `customlang/` là bản phái sinh từ gói ngôn ngữ của Moodle và mỗi file đều đã có sẵn header GPL của Moodle, vì vậy gói này phải giữ giấy phép GPL. Moodle là phần mềm tự do: bạn có thể phân phối lại và/hoặc chỉnh sửa theo các điều khoản của GNU General Public License do Free Software Foundation công bố, phiên bản 3 hoặc (tùy chọn) bất kỳ phiên bản mới hơn nào.
+
+- Chuỗi ngôn ngữ core của Moodle: © Moodle Pty Ltd và các cộng tác viên, GPL-3.0-or-later.
+- Chuỗi trong `customlang/theme_academi.php`: thuộc giao diện Academi của bên thứ ba, được phân phối theo GPL như một plugin Moodle. Hãy kiểm tra điều khoản giấy phép và ghi công riêng của giao diện đó trước khi phân phối lại.
+- Bản dịch tiếng Việt và tài liệu của repository: © các cộng tác viên của repository này, phát hành theo GPL-3.0-or-later.
 
 Đây là gói tùy biến ngôn ngữ tiếng Việt độc lập, không phải bản phát hành chính thức của Moodle.
